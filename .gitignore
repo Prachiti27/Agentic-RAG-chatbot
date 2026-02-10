@@ -1,0 +1,113 @@
+# =========================
+# Python bytecode & cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+.env*/
+.venv/
+ENV/
+env/
+
+# =========================
+# Distribution / packaging
+# =========================
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# Installer logs
+# =========================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# Unit test / coverage
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# =========================
+# Static type checkers
+# =========================
+.mypy_cache/
+.pytype/
+.pyre/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Jupyter notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.dev
+.env.prod
+
+# =========================
+# ML / Data science (optional)
+# =========================
+data/
+datasets/
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# =========================
+# Secrets
+# =========================
+secrets/
+*.pem
+*.key
+doc_vector_store/
